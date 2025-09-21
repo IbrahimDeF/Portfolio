@@ -49,12 +49,6 @@ window.onscroll = function () {
   if (window.scrollY >= document.querySelector(".project").offsetTop - 200) {
     document.querySelector(".project .boxs").style.left = "0";
   }
-  // Animation section contact
-  if (window.scrollY >= document.querySelector(".contact").offsetTop - 500) {
-    document.querySelector(".contact").style.left = "0";
-    // Animation section footer
-    document.querySelector("footer").style.left = "0";
-  }
 };
 
 function trys() {
